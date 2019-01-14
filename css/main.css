@@ -25,8 +25,13 @@ body {
   letter-spacing: 5px;
 }
 
-.card-body {
+.card_intro p {
+  margin: 0;
+}
+.card_intro .card-body {
   font-family: "League Mono", Verdana, Tahoma;
+  font-size: 1.2em;
+  padding-bottom: 0;
 }
 
 .elevation-8 {
