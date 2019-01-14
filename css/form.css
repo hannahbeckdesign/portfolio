@@ -1,20 +1,16 @@
 .form {
-  font-family: "League Mono", Verdana, Tahoma;
-}
+  font-family: "League Mono", Verdana, Tahoma; }
 
 .title, .send button {
   font-family: "League Spartan", Verdana, Tahoma;
-  letter-spacing: 5px;
-}
+  letter-spacing: 5px; }
 
 .subtitle {
-  font-family: "Libre Baskerville", serif;
-}
+  font-family: 'Libre Baskerville', serif; }
 
 .message, .contact, .name, .footer, header, textarea {
   padding: 0;
-  margin: 0;
-}
+  margin: 0; }
 
 .first, .last {
   width: 50%;
@@ -22,12 +18,10 @@
   padding: 0 0 0 20px;
   height: 50px;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  border-right: none;
-}
+  border-right: none; }
 
 .last {
-  border: 1px solid rgba(0, 0, 0, 0.1);
-}
+  border: 1px solid rgba(0, 0, 0, 0.1); }
 
 .email, .message textarea {
   width: 100%;
@@ -35,12 +29,10 @@
   line-height: 50px;
   padding: 0 0 0 20px;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  border-top: 0;
-}
+  border-top: 0; }
 
 .message textarea {
-  height: 200px;
-}
+  height: 200px; }
 
 .send button {
   width: 100%;
@@ -48,19 +40,15 @@
   background: #7facaa;
   border: 0;
   color: white;
-  transition: all linear 0.2s;
-}
-.send button:hover {
-  background: #568a87;
-}
-.send button:focus {
-  outline: none;
-}
+  transition: all linear .2s; }
+  .send button:hover {
+    background: #568a87; }
+  .send button:focus {
+    outline: none; }
 
-.first:focus, .last:focus, .email:focus, textarea:focus {
+.first:focus, .last:focus, .last:focus, .email:focus, .message textarea:focus, textarea:focus {
   outline: none;
   background: rgba(127, 172, 170, 0.1);
-  color: rgba(51, 51, 51, 0.7);
-}
+  color: rgba(51, 51, 51, 0.7); }
 
 /*# sourceMappingURL=form.css.map */
