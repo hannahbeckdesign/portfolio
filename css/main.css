@@ -8,6 +8,11 @@ body {
   background-repeat: no-repeat;
 }
 
+.portfolio_section {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
 .title-caption {
   position: absolute;
   top: 50%;

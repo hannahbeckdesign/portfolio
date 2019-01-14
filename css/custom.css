@@ -2,6 +2,10 @@
 /* custom.scss */
 /* import the necessary Bootstrap files */
 /* make changes to the !default Bootstrap variables */
+.form-group {
+  margin-bottom: 0 !important;
+}
+
 /* finally, import Bootstrap to set the changes! */
 /*!
  * Bootstrap v4.1.3 (https://getbootstrap.com/)
@@ -546,8 +550,8 @@ pre code {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 16px;
+  padding-left: 16px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -584,8 +588,8 @@ pre code {
 
 .container-fluid {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 16px;
+  padding-left: 16px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -593,8 +597,8 @@ pre code {
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: -16px;
+  margin-left: -16px;
 }
 
 .no-gutters {
@@ -618,8 +622,8 @@ pre code {
   position: relative;
   width: 100%;
   min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 16px;
+  padding-left: 16px;
 }
 
 .col {

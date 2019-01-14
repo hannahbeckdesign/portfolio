@@ -43,5 +43,11 @@ $display2-size:               3.5rem;
 $display3-size:               2.5rem;
 $display4-size:               1rem;
 
+.form-group {
+  margin-bottom: 0 !important;
+}
+
+$grid-gutter-width:           32px;
+
 /* finally, import Bootstrap to set the changes! */
 @import "bootstrap/bootstrap";
