@@ -90,33 +90,36 @@
                 </div>
             </div>
             <div class="row portfolio_section" style="background-color: #e8e7e3">
-                <div class="col-12 col-lg-8 offset-lg-2 elevation-8">
-                    <div class="row form-group form">
-                        <div class="col-12 header mt-3 mb-4">
-                            <span class="subtitle font-italic">Want to know more?</span>
-                            <br/>
-                            <span class="title h3 text-uppercase">Send me a message</span>
-                        </div> 
-                        <div class="col-12 d-flex p-0">
-                            <input class='first' placeholder='First name' type='text'>
-                            <input class='last' placeholder='Last name' type='text'>
-                        </div>
-                        <div class='col-12 d-flex p-0'>
-                            <input class='email' placeholder='E-mail address' type='text'>
-                        </div>
-                        <div class='message col-12 p-0' style="line-height: 0">
-                            <textarea placeholder='Write your message here!'></textarea>
-                        </div>
-                        <div class="text-center col-12 send">
-                            <button class="text-uppercase">Send</button>
-                        </div>
-                    </div>                 
+                <div class="col-10 offset-1 col-lg-8 offset-lg-2 elevation-8">
+                    <form  name="sentMessage" id="contactForm">
+                        <div class="row form-group form">
+                            <div class="col-12 header mt-3 mb-4">
+                                <span class="subtitle font-italic">Want to know more?</span>
+                                <br/>
+                                <span class="title h3 text-uppercase">Send me a message</span>
+                            </div> 
+                            <div class="col-12 d-flex p-0">
+                                <input class='first' placeholder='First name' id="firstName" type='text'>
+                                <input class='last' placeholder='Last name' id="lastName" type='text'>
+                            </div>
+                            <div class='col-12 d-flex p-0'>
+                                <input class='email' placeholder='E-mail address' id="email" type='text'>
+                            </div>
+                            <div class='message col-12 p-0' style="line-height: 0">
+                                <textarea placeholder='Write your message here!' id="message"></textarea>
+                            </div>
+                            <div class="text-center col-12 send">
+                                <button class="text-uppercase">Send</button>
+                            </div>
+                        </div>  
+                    </form>               
                 </div>
             </div>
         </div>    
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
+        
+        <script src="js/contact_me.js"></script>
 		<script src="js/vendor/bootstrap.min.js"></script>
 
 		<script src="js/main.js"></script>
