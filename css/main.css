@@ -1,7 +1,7 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body {
+body.index {
   background-image: url("../img/yellow_bg.svg");
   background-color: #ffffff;
   background-position: center top;
