@@ -50,6 +50,31 @@ body {
   height: 13px;
 }
 
+.case_study_title_box {
+  position: absolute;
+  top: 1rem;
+  left: 1.5rem;
+  color: white;
+}
+.case_study_title_box .subtitle {
+  line-height: 3rem;
+}
+.case_study_title_box .title {
+  line-height: 2rem;
+}
+
+.case_study_btn_box {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 1.5rem;
+  color: white;
+  outline: 0.1em solid white;
+  line-height: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-family: "League Mono", Verdana, Tahoma;
+}
+
 .scaleAnimation {
   position: relative;
   overflow: hidden;

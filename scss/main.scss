@@ -3,6 +3,8 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+$league_spartan: "League Spartan", Verdana, Tahoma;
+$league_mono: "League Mono", Verdana, Tahoma;
 
 body{
     background-image: url("../img/yellow_bg.svg");
@@ -16,6 +18,8 @@ body{
     padding-bottom: 6rem;
 }
 
+// Hero
+
 .title-caption{
     position: absolute;
     top: 50%;  /* position the top  edge of the element at the middle of the parent */
@@ -23,13 +27,15 @@ body{
 
     transform: translate(-50%, -50%);
 
-    font-family: "League Spartan", Verdana, Tahoma;
+    font-family: $league_spartan;
     letter-spacing: 20px;
     line-height: 1.4;
 }
 
+// Intro card
+
 .card-title{
-    font-family: "League Spartan", Verdana, Tahoma;
+    font-family: $league_spartan;
     letter-spacing: 5px;
 }
 
@@ -38,7 +44,7 @@ body{
         margin: 0
     }
     .card-body{
-        font-family: "League Mono", Verdana, Tahoma;
+        font-family: $league_mono;
         font-size: 1.2em;
         padding-bottom: 0,
     }
@@ -53,6 +59,32 @@ body{
     background-repeat: repeat-x;
     background-size: 40px 13px;
     height: 13px;
+}
+
+// Gallery
+
+.case_study_title_box{
+    position: absolute; 
+    top: 1rem;
+    left: 1.5rem;
+    color: white; 
+    .subtitle{
+        line-height: 3rem;
+    }
+    .title{
+        line-height: 2rem;
+    }
+}
+.case_study_btn_box{
+    position: absolute; 
+    bottom: 1.5rem;
+    left: 1.5rem;
+    color: white;
+    outline: .1em solid white; 
+    line-height: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: $league_mono;
 }
 
 .scaleAnimation {
