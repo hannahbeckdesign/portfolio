@@ -5,6 +5,7 @@
    ========================================================================== */
 $league_spartan: "League Spartan", Verdana, Tahoma;
 $league_mono: "League Mono", Verdana, Tahoma;
+$libre: 'Libre Baskerville', serif;
 
 body.index{
     background-image: url("../img/yellow_bg.svg");
@@ -18,6 +19,11 @@ body.index{
     padding-bottom: 6rem;
 }
 
+.portfolio_spacing_sm{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
 // Hero
 
 .title-caption{
@@ -28,8 +34,8 @@ body.index{
     transform: translate(-50%, -50%);
 
     font-family: $league_spartan;
-    letter-spacing: 20px;
-    line-height: 1.4;
+    letter-spacing: .25em;
+    line-height: 1.4em;
 }
 
 // Intro card
@@ -107,6 +113,37 @@ body.index{
 .grid-container {
     margin-left: 1rem;
     margin-right: 1rem;
+}
+
+// One Zensation case study
+
+.cs_title{
+    font-family: $league_spartan;
+    letter-spacing: .15em;
+    line-height: 1.4em;
+}
+
+.cs_summary{
+    font-family: $libre !important;
+    line-height: 1.4em;
+    color: #9dbebd;
+}
+
+.cs_deets_a{
+    letter-spacing: .15em;
+    font-size: 1em;
+}
+
+.cs_deets_b{
+    font-family: $league_mono;
+    font-size: 1em;
+    color: rgba(0, 0, 0, .56)
+}
+
+.cs_captions{
+    font-family: $league_mono;
+    font-size: .8em;
+    color: rgba(0, 0, 0, .56)
 }
 
 

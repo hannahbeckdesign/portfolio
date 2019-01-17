@@ -9,7 +9,8 @@ body {
     left: 0;
     right: 0;
     background: url("../img/case_studies/hero_one_zensation_3000x2000.jpg");
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100vw auto;
     height: 170vh;
     width: 100vw;
     
@@ -28,7 +29,7 @@ body {
     z-index: 1000;
     top: 80vh;
     background: white;
-    height: 100vh;
+    height: 250vh;
     width: 100%;
     box-shadow: 0 -2px 1px rgba(0,0,0,.15);
     border-top: 1px solid rgba(255,255,255,.2);

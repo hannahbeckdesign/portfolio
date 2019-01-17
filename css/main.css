@@ -13,6 +13,11 @@ body.index {
   padding-bottom: 6rem;
 }
 
+.portfolio_spacing_sm {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
 .title-caption {
   position: absolute;
   top: 50%;
@@ -21,8 +26,8 @@ body.index {
   /* position the left edge of the element at the middle of the parent */
   transform: translate(-50%, -50%);
   font-family: "League Spartan", Verdana, Tahoma;
-  letter-spacing: 20px;
-  line-height: 1.4;
+  letter-spacing: 0.25em;
+  line-height: 1.4em;
 }
 
 .card-title {
@@ -95,6 +100,35 @@ body.index {
 .grid-container {
   margin-left: 1rem;
   margin-right: 1rem;
+}
+
+.cs_title {
+  font-family: "League Spartan", Verdana, Tahoma;
+  letter-spacing: 0.15em;
+  line-height: 1.4em;
+}
+
+.cs_summary {
+  font-family: "Libre Baskerville", serif !important;
+  line-height: 1.4em;
+  color: #9dbebd;
+}
+
+.cs_deets_a {
+  letter-spacing: 0.15em;
+  font-size: 1em;
+}
+
+.cs_deets_b {
+  font-family: "League Mono", Verdana, Tahoma;
+  font-size: 1em;
+  color: rgba(0, 0, 0, 0.56);
+}
+
+.cs_captions {
+  font-family: "League Mono", Verdana, Tahoma;
+  font-size: 0.8em;
+  color: rgba(0, 0, 0, 0.56);
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -34,13 +34,15 @@ $spacers: map-merge(
   $spacers
 );
 
-$body-bg: green ;
-
 // Fonts
+
+$font-family-sans-serif:      "League Spartan", Verdana, Tahoma;
+$font-family-monospace:       "League Mono", Verdana, Tahoma;
+$font-family-base:            $font-family-sans-serif;
 
 $display1-size:               4rem;
 $display2-size:               3.5rem;
-$display3-size:               2.5rem;
+$display3-size:               2rem;
 $display4-size:               1rem;
 
 .form-group {
