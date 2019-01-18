@@ -121,6 +121,25 @@ body.index{
     font-family: $league_spartan;
     letter-spacing: .15em;
     line-height: 1.4em;
+    margin-bottom: -.4em;
+    color: #172c53;
+}
+
+.cs_view_btn_box{
+    .btn{
+        border-radius: 0;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        padding: 0.65rem 1.25rem;
+    }
+    .cs_btn{
+        background: #172c53;
+        color: white;
+        font-size: 1rem;
+        font-family: $league_mono;
+        letter-spacing: .15em;
+    }
 }
 
 .cs_summary{
@@ -132,6 +151,7 @@ body.index{
 .cs_deets_a{
     letter-spacing: .15em;
     font-size: 1em;
+    color: rgba(0, 0, 0, .87);
 }
 
 .cs_deets_b{
@@ -146,8 +166,10 @@ body.index{
     color: rgba(0, 0, 0, .56)
 }
 
-
-
+.portfolio_spacing_sm > *{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 
 
 

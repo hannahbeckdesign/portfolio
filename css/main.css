@@ -106,6 +106,23 @@ body.index {
   font-family: "League Spartan", Verdana, Tahoma;
   letter-spacing: 0.15em;
   line-height: 1.4em;
+  margin-bottom: -0.4em;
+  color: #172c53;
+}
+
+.cs_view_btn_box .btn {
+  border-radius: 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 0.65rem 1.25rem;
+}
+.cs_view_btn_box .cs_btn {
+  background: #172c53;
+  color: white;
+  font-size: 1rem;
+  font-family: "League Mono", Verdana, Tahoma;
+  letter-spacing: 0.15em;
 }
 
 .cs_summary {
@@ -117,6 +134,7 @@ body.index {
 .cs_deets_a {
   letter-spacing: 0.15em;
   font-size: 1em;
+  color: rgba(0, 0, 0, 0.87);
 }
 
 .cs_deets_b {
@@ -129,6 +147,11 @@ body.index {
   font-family: "League Mono", Verdana, Tahoma;
   font-size: 0.8em;
   color: rgba(0, 0, 0, 0.56);
+}
+
+.portfolio_spacing_sm > * {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 /*# sourceMappingURL=main.css.map */
