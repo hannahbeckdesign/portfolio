@@ -1,5 +1,15 @@
 //@import "compass/css3";
 
+.hero.onezen{
+  background: url("../img/case_studies/hero_one_zensation_3000x2000.jpg");
+  background-size: 100vw auto;
+}
+
+.hero.netherlands{
+  background: url("../img/case_studies/hero_netherlands_3000x2000.jpg");
+  background-size: 100vw auto;
+}
+
 body {
   .hero {
     position: fixed;
@@ -8,9 +18,7 @@ body {
     bottom:  0;
     left: 0;
     right: 0;
-    background: url("../img/case_studies/hero_one_zensation_3000x2000.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw auto;
     height: 170vh;
     width: 100vw;
     
