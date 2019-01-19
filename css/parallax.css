@@ -1,0 +1,53 @@
+body .hero {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  height: 170vh;
+  width: 100vw;
+}
+body .hero:before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  height: 170vh;
+  width: 100vw;
+  position: absolute;
+}
+body .content {
+  position: absolute;
+  z-index: 1000;
+  top: 80vh;
+  background: white;
+  height: 250vh;
+  width: 100%;
+  box-shadow: 0 -2px 1px rgba(0, 0, 0, 0.15);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.hero.onezen {
+  background: url("../img/case_studies/hero_one_zensation_3000x2000.jpg");
+  background-size: 100vw auto;
+}
+
+.hero.netherlands {
+  background: url("../img/case_studies/hero_netherlands_3000x2000.jpg");
+  background-size: 100vw auto;
+}
+
+@media (max-width: 767.98px) {
+  .hero.onezen {
+    background: url("../img/case_studies/hero_one_zenation_1152x768.jpg");
+    background-size: 100vw auto;
+  }
+
+  .hero.netherlands {
+    background: url("../img/case_studies/hero_netherlands_1152x768.jpg");
+    background-size: 100vw auto;
+  }
+}
+
+/*# sourceMappingURL=parallax.css.map */

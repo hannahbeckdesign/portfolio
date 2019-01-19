@@ -41,8 +41,12 @@
   cursor: pointer;
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
   border: 1px solid rgba(0, 0, 0, 0.12);
 }
+=======
+  border: 1px solid rgba(0, 0, 0, 0.12); }
+>>>>>>> 3a394aa91c2ba3adbde6915fd702d561f2207859
 
 .next-project-title li {
   margin: 0;

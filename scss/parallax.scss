@@ -1,14 +1,8 @@
 //@import "compass/css3";
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
 
-.hero.onezen{
-  background: url("../img/case_studies/hero_one_zensation_3000x2000.jpg");
-  background-size: 100vw auto;
-}
-
-.hero.netherlands{
-  background: url("../img/case_studies/hero_netherlands_3000x2000.jpg");
-  background-size: 100vw auto;
-}
 
 body {
   .hero {
@@ -56,12 +50,12 @@ body {
 
 @include media-breakpoint-down(sm) {
   .hero.onezen{
-    background: url("../img/case_studies/onezen_hero_2650x2000.jpg");
+    background: url("../img/case_studies/hero_one_zenation_1152x768.jpg");
     background-size: 100vw auto;
   }
 
   .hero.netherlands{
-    background: url("../img/case_studies/hero_netherlands_.jpg");
+    background: url("../img/case_studies/hero_netherlands_1152x768.jpg");
     background-size: 100vw auto;
   }
 }
