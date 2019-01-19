@@ -4,8 +4,7 @@
   position: absolute;
   color: black;
   background-color: white;
-  margin-bottom: 0;
-}
+  margin-bottom: 0; }
 
 .next-project-wrap {
   position: absolute;
@@ -15,8 +14,7 @@
   height: 100%;
   overflow: hidden;
   background: white;
-  z-index: 3;
-}
+  z-index: 3; }
 
 .next-project-image {
   position: absolute;
@@ -29,8 +27,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.6;
-  transition: opacity 0.3s ease;
-}
+  transition: opacity 0.3s ease; }
 
 .next-project-title {
   position: absolute;
@@ -44,14 +41,17 @@
   cursor: pointer;
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
   border: 1px solid rgba(0, 0, 0, 0.12);
 }
+=======
+  border: 1px solid rgba(255, 255, 255, 0.12); }
+>>>>>>> 5a8b89ec9770aa2a6957da16aaf95ded9266ad93
 
 .next-project-title li {
   margin: 0;
   padding: 0;
-  list-style: none;
-}
+  list-style: none; }
 
 .main-title,
 .clone-main-title {
@@ -59,8 +59,7 @@
   font-family: "Poppins", sans-serif;
   font-size: 45px;
   line-height: 150px;
-  color: black;
-}
+  color: black; }
 
 .main-subtitle,
 .clone-main-subtitle {
@@ -68,14 +67,12 @@
   font-family: "Poppins", sans-serif;
   font-size: 30px;
   line-height: 150px;
-  color: black;
-}
+  color: black; }
 
 .main-title,
 .main-subtitle {
   position: absolute;
   box-sizing: border-box;
-  width: 100%;
-}
+  width: 100%; }
 
 /*# sourceMappingURL=rolling_btn.css.map */
