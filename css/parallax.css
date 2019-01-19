@@ -1,65 +1,45 @@
-/*
-Error: Undefined mixin 'media-breakpoint-down'.
-        on line 57 of scss/parallax.scss, in `media-breakpoint-down'
-        from line 57 of scss/parallax.scss
+body .hero {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  height: 170vh;
+  width: 100vw; }
+  body .hero:before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    height: 170vh;
+    width: 100vw;
+    position: absolute; }
+body .content {
+  position: absolute;
+  z-index: 1000;
+  top: 80vh;
+  background: white;
+  height: 250vh;
+  width: 100%;
+  box-shadow: 0 -2px 1px rgba(0, 0, 0, 0.15);
+  border-top: 1px solid rgba(255, 255, 255, 0.2); }
 
-52: .hero.netherlands{
-53:   background: url("../img/case_studies/hero_netherlands_3000x2000.jpg");
-54:   background-size: 100vw auto;
-55: }
-56: 
-57: @include media-breakpoint-down(sm) {
-58:   .hero.onezen{
-59:     background: url("../img/case_studies/onezen_hero_2650x2000.jpg");
-60:     background-size: 100vw auto;
-61:   }
-62: 
+.hero.onezen {
+  background: url("../img/case_studies/hero_one_zensation_3000x2000.jpg");
+  background-size: 100vw auto; }
 
-Backtrace:
-scss/parallax.scss:57:in `media-breakpoint-down'
-scss/parallax.scss:57
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:348:in `block in visit_mixin'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/stack.rb:98:in `block in with_mixin'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/stack.rb:98:in `with_mixin'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:346:in `visit_mixin'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:157:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/plugin/compiler.rb:320:in `block in watch'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined mixin 'media-breakpoint-down'.\A         on line 57 of scss/parallax.scss, in `media-breakpoint-down'\A         from line 57 of scss/parallax.scss\A \A 52: .hero.netherlands{\A 53:   background: url(\"../img/case_studies/hero_netherlands_3000x2000.jpg\");\A 54:   background-size: 100vw auto;\A 55: }\A 56: \A 57: @include media-breakpoint-down(sm) {\A 58:   .hero.onezen{\A 59:     background: url(\"../img/case_studies/onezen_hero_2650x2000.jpg\");\A 60:     background-size: 100vw auto;\A 61:   }\A 62: "; }
+.hero.netherlands {
+  background: url("../img/case_studies/hero_netherlands_3000x2000.jpg");
+  background-size: 100vw auto; }
+
+@media (max-width: 767.98px) {
+  .hero.onezen {
+    background: url("../img/case_studies/hero_one_zenation_1152x768.jpg");
+    background-size: 100vw auto; }
+
+  .hero.netherlands {
+    background: url("../img/case_studies/hero_netherlands_1152x768.jpg");
+    background-size: 100vw auto; } }
+
+/*# sourceMappingURL=parallax.css.map */
