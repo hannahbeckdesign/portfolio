@@ -43,3 +43,26 @@ body {
     border-top: 1px solid rgba(255,255,255,.2);
   }
 }
+
+.hero.onezen{
+  background: url("../img/case_studies/hero_one_zensation_3000x2000.jpg");
+  background-size: 100vw auto;
+}
+
+.hero.netherlands{
+  background: url("../img/case_studies/hero_netherlands_3000x2000.jpg");
+  background-size: 100vw auto;
+}
+
+@include media-breakpoint-down(sm) {
+  
+.hero.onezen{
+  background: url("../img/case_studies/onezen_hero_2650x2000.jpg");
+  background-size: 100vw auto;
+}
+
+.hero.netherlands{
+  background: url("../img/case_studies/hero_netherlands_.jpg");
+  background-size: 100vw auto;
+}
+}
