@@ -55,14 +55,13 @@ body {
 }
 
 @include media-breakpoint-down(sm) {
-  
-.hero.onezen{
-  background: url("../img/case_studies/onezen_hero_2650x2000.jpg");
-  background-size: 100vw auto;
-}
+  .hero.onezen{
+    background: url("../img/case_studies/onezen_hero_2650x2000.jpg");
+    background-size: 100vw auto;
+  }
 
-.hero.netherlands{
-  background: url("../img/case_studies/hero_netherlands_.jpg");
-  background-size: 100vw auto;
-}
+  .hero.netherlands{
+    background: url("../img/case_studies/hero_netherlands_.jpg");
+    background-size: 100vw auto;
+  }
 }

@@ -9,11 +9,11 @@ Error: Undefined mixin 'media-breakpoint-down'.
 55: }
 56: 
 57: @include media-breakpoint-down(sm) {
-58:   
-59: .hero.onezen{
-60:   background: url("../img/case_studies/onezen_hero_2650x2000.jpg");
-61:   background-size: 100vw auto;
-62: }
+58:   .hero.onezen{
+59:     background: url("../img/case_studies/onezen_hero_2650x2000.jpg");
+60:     background-size: 100vw auto;
+61:   }
+62: 
 
 Backtrace:
 scss/parallax.scss:57:in `media-breakpoint-down'
@@ -62,4 +62,4 @@ C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'media-breakpoint-down'.\A         on line 57 of scss/parallax.scss, in `media-breakpoint-down'\A         from line 57 of scss/parallax.scss\A \A 52: .hero.netherlands{\A 53:   background: url(\"../img/case_studies/hero_netherlands_3000x2000.jpg\");\A 54:   background-size: 100vw auto;\A 55: }\A 56: \A 57: @include media-breakpoint-down(sm) {\A 58:   \A 59: .hero.onezen{\A 60:   background: url(\"../img/case_studies/onezen_hero_2650x2000.jpg\");\A 61:   background-size: 100vw auto;\A 62: }"; }
+  content: "Error: Undefined mixin 'media-breakpoint-down'.\A         on line 57 of scss/parallax.scss, in `media-breakpoint-down'\A         from line 57 of scss/parallax.scss\A \A 52: .hero.netherlands{\A 53:   background: url(\"../img/case_studies/hero_netherlands_3000x2000.jpg\");\A 54:   background-size: 100vw auto;\A 55: }\A 56: \A 57: @include media-breakpoint-down(sm) {\A 58:   .hero.onezen{\A 59:     background: url(\"../img/case_studies/onezen_hero_2650x2000.jpg\");\A 60:     background-size: 100vw auto;\A 61:   }\A 62: "; }
