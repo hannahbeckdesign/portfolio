@@ -19,8 +19,10 @@
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/parallax.css">
+        <link rel="stylesheet" href="css/rolling_btn.css">
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
     </head>
     <body>
             <div class="hero onezen">
@@ -89,18 +91,35 @@
                         <img src="img/case_studies/accom_2400x1390.jpg" class="img-fluid elevation-8"></img>
                     </div>
                 </div>
-                <div class="row">
+
+                <div class="row" style="height:200px">
+
                         <div class="col-md-2 cs_view_btn_box">
                             <button onclick="window.history.back()" class="btn text-uppercase cs_btn">Back</button>
-                        </div><div class="offset-md-8 col-md-2 cs_view_btn_box"> 
-                            <a href="./netherlands.html" class="btn text-uppercase cs_btn">Next project (one zensation)</a>
+                        </div>
+                        <div class="col-md-3 offset-md-7"> 
+                            <a href="./netherlands.html" class="text-uppercase" style="height:200px">
+                            
+                               
+                                    <div class="next-project-wrap">
+                                        <div class="next-project-title hide-ball">
+                                        <div class="main-title">Next</div>
+                                        <div class="main-subtitle">Piaget Jewels</div>
+                                        </div>
+                                    </div>
+                           
+                            
+                            </a>
                         </div>
                     </div>
             </div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
         <script src="js/parallax.js"></script>
+        <script src="js/rolling_btn.js"></script>
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="js/main.js"></script>
+
+
     </body>
 </html>
