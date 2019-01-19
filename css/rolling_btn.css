@@ -1,20 +1,13 @@
-#project-nav {
-  height: 100vh;
-  width: 100%;
-  position: absolute;
-  color: black;
-  background-color: white;
-  margin-bottom: 0; }
-
 .next-project-wrap {
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 100%;
+  width: 12rem;
   height: 100%;
   overflow: hidden;
   background: white;
-  z-index: 3; }
+  z-index: 3;
+}
 
 .next-project-image {
   position: absolute;
@@ -27,7 +20,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.6;
-  transition: opacity 0.3s ease; }
+  transition: opacity 0.3s ease;
+}
 
 .next-project-title {
   position: absolute;
@@ -35,44 +29,43 @@
   top: 50%;
   transform: translateY(-50%);
   overflow: hidden;
-  width: 220px;
-  height: 104px;
+  width: 12rem;
+  height: 3rem;
   text-align: center;
   cursor: pointer;
   margin: 0;
   padding: 0;
-<<<<<<< HEAD
   border: 1px solid rgba(0, 0, 0, 0.12);
 }
-=======
-  border: 1px solid rgba(0, 0, 0, 0.12); }
->>>>>>> 3a394aa91c2ba3adbde6915fd702d561f2207859
 
 .next-project-title li {
   margin: 0;
   padding: 0;
-  list-style: none; }
+  list-style: none;
+}
 
 .main-title,
 .clone-main-title {
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  font-size: 45px;
-  line-height: 150px;
-  color: black; }
+  font-family: "League Mono", Verdana, Tahoma;
+  font-size: 1rem;
+  line-height: 2.75rem;
+  color: rgba(0, 0, 0, 0.87);
+}
 
 .main-subtitle,
 .clone-main-subtitle {
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  font-size: 30px;
-  line-height: 150px;
-  color: black; }
+  font-family: "League Mono", Verdana, Tahoma;
+  letter-spacing: 0.15em;
+  font-size: 1rem;
+  line-height: 2.75rem;
+  color: rgba(0, 0, 0, 0.87);
+}
 
 .main-title,
 .main-subtitle {
   position: absolute;
   box-sizing: border-box;
-  width: 100%; }
+  width: 100%;
+}
 
 /*# sourceMappingURL=rolling_btn.css.map */

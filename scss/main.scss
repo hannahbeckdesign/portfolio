@@ -177,6 +177,22 @@ body.index{
     margin-bottom: 1rem;
 }
 
+.back_btn_container{
+    button{
+        position: absolute;
+        top: 50%;
+        height: 3rem;
+        margin-top: -1.5rem;
+        background: white;
+        border: 1px solid rgba(0,0,0,.12); 
+        border-radius: 0; 
+        font-family: $league_mono;
+        font-size: 1rem;
+        color:rgba(0,0,0,.87);
+        padding: 0.65rem 1.25rem;
+    }
+}
+
 
 
 

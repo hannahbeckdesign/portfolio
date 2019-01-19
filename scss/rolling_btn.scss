@@ -1,23 +1,14 @@
-  #project-nav {
-    height: 100vh;
-    width: 100%;
-    position: absolute;
-    color: black;
-    background-color: white;
-    margin-bottom: 0;
-  
-  }
-  
+$league_mono: "League Mono", Verdana, Tahoma;
+
   .next-project-wrap {
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 100%;
+    width: 12rem;
     height: 100%;
     overflow: hidden;
     background: white;
-    z-index: 3;
-    
+    z-index: 3; 
   }
   
   .next-project-image {
@@ -32,7 +23,6 @@
     background-repeat: no-repeat;
     opacity: 0.6;
     transition: opacity 0.3s ease;
-  
   }
   
   .next-project-title {
@@ -41,13 +31,13 @@
     top: 50%;
     transform: translateY(-50%);
     overflow: hidden;
-    width: 220px;
-    height: 104px;
+    width: 12rem;
+    height: 3rem;
     text-align: center;
     cursor: pointer;
     margin: 0;
     padding: 0;
-        border: 1px solid rgba(0,0,0,.12);  
+    border: 1px solid rgba(0,0,0,.12);  
   }
   
   .next-project-title li {
@@ -58,20 +48,19 @@
   
   .main-title,
   .clone-main-title {
-    font-weight: 600;
-    font-family: "Poppins", sans-serif;
-    font-size: 45px;
-    line-height: 150px;
-    color:rgb(0,0,0);
+    font-family: $league_mono;
+    font-size: 1rem;
+    line-height: 2.75rem;
+    color:rgba(0,0,0,.87);
   }
   
   .main-subtitle,
   .clone-main-subtitle {
-    font-weight: 600;
-    font-family: "Poppins", sans-serif;
-    font-size: 30px;
-    line-height: 150px;
-    color:rgb(0,0,0);
+    font-family: $league_mono;
+    letter-spacing: .15em;
+    font-size: 1rem;
+    line-height: 2.75rem;
+    color:rgba(0,0,0,.87);
   }
   
   .main-title,
