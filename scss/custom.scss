@@ -60,5 +60,12 @@ $display4-size:               1rem;
 
 $grid-gutter-width: 32px;
 
+// Button
+
+.btn:focus, .btn.focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
 /* finally, import Bootstrap to set the changes! */
 @import "bootstrap/bootstrap";
