@@ -35,6 +35,11 @@ body.index {
   line-height: 1.4em;
 }
 
+@media (max-width: 576px) {
+  .title-caption {
+    font-size: 9vw;
+  }
+}
 .card-title {
   font-family: "League Spartan", Verdana, Tahoma;
   letter-spacing: 5px;
@@ -73,7 +78,7 @@ body.index {
   line-height: 2rem;
 }
 
-.case_study_btn_box {
+.cs_btn_box {
   position: absolute;
   bottom: 1.5rem;
   left: 1.5rem;
@@ -83,6 +88,7 @@ body.index {
   padding-left: 1rem;
   padding-right: 1rem;
   font-family: "League Mono", Verdana, Tahoma;
+  letter-spacing: 0.15em;
   display: block;
 }
 
@@ -118,10 +124,21 @@ body.index {
 
 .cs_view_btn_box .btn {
   border-radius: 0;
-  position: absolute;
-  right: 0;
-  bottom: 0;
   padding: 0.65rem 1.25rem;
+  height: 3rem;
+  display: block;
+}
+@media (max-width: 992px) {
+  .cs_view_btn_box .btn {
+    float: left;
+  }
+}
+@media (min-width: 992px) {
+  .cs_view_btn_box .btn {
+    position: absolute;
+    right: 1rem;
+    bottom: 0;
+  }
 }
 .cs_view_btn_box .cs_btn {
   background: #172c53;
